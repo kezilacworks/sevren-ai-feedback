@@ -1,0 +1,31 @@
+name: 💡 기능 제안 / 개선 아이디어
+description: 이런 기능이 있으면 좋겠다는 아이디어를 들려주세요.
+title: "[제안] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        좋은 아이디어 감사합니다!
+        떠오르는 대로 편하게 적어주셔도 괜찮아요.
+  - type: textarea
+    id: idea
+    attributes:
+      label: 어떤 기능을 원하시나요?
+      description: 있으면 좋겠다고 생각하신 기능을 자유롭게 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 왜 필요하다고 느끼셨나요?
+      description: 지금 어떤 점이 불편하신지 알려주시면 더 좋은 방향을 찾을 수 있어요.
+    validations:
+      required: false
+  - type: textarea
+    id: reference
+    attributes:
+      label: 참고할 만한 예시가 있나요?
+      description: 비슷한 기능을 잘 구현한 다른 서비스가 있다면 알려주세요. 스크린샷도 좋습니다.
+    validations:
+      required: false
