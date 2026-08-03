@@ -1,0 +1,11 @@
+name: 💬 기타 문의 / 사용 중 궁금한 점
+description: 버그도 제안도 아닌 질문이나 이야기를 남겨주세요.
+labels: ["question"]
+body:
+  - type: textarea
+    id: content
+    attributes:
+      label: 내용
+      description: 편하게 적어주세요.
+    validations:
+      required: true
